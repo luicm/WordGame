@@ -9,13 +9,9 @@ import SwiftUI
 import ComposableArchitecture
 
 struct BoardView: View {
-    var animation: Animation {
-        Animation
-            .easeInOut(duration: 2)
-            .repeatCount(2, autoreverses: true)
-    }
     
-    let store: Store<AppState, AppAction>    
+    let store: Store<AppState, AppAction>
+    
     var body: some View {
         WithViewStore(self.store) { viewStore in
             ZStack{
@@ -24,6 +20,7 @@ struct BoardView: View {
                         Spacer()
                         Image(systemName: "crown.fill").font(.largeTitle)
                             .foregroundColor(Color("Flame"))
+                        
                         Text("\(viewStore.score)").font(.largeTitle)
                             .fontWeight(.black)
                             .transition(.scale)
@@ -37,11 +34,9 @@ struct BoardView: View {
                         .fontWeight(.heavy)
                         .font(.title)
                         .padding()
+                    
                     Text("\((viewStore.learningLanguage == .spanish ? viewStore.wordState.translation?.english : viewStore.wordState.translation?.spanish) ?? "--")").padding()
                         .scaleEffect(2)
-                        .animation(animation)
-                        
-
                     
                     Spacer()
                     

@@ -16,8 +16,8 @@ enum Answer {
 
 
 /// Holds the logic related to the word that is going to be translated
-
 struct WordState: Equatable {
+    
     var mainWord: Word?
     var translation: Word?
     var isTranslationCorrect: Bool {
