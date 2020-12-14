@@ -18,6 +18,7 @@
 		FF9E4B372580193900252551 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E4B362580193900252551 /* BoardView.swift */; };
 		FF9E4B59258021E800252551 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E4B58258021E800252551 /* AppState.swift */; };
 		FFFA81A92582C31F00F3C588 /* WordState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFA81A82582C31F00F3C588 /* WordState.swift */; };
+		FFFA8201258793AA00F3C588 /* WordGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFA8200258793AA00F3C588 /* WordGameApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		FF9E4B362580193900252551 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 		FF9E4B58258021E800252551 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		FFFA81A82582C31F00F3C588 /* WordState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordState.swift; sourceTree = "<group>"; };
+		FFFA8200258793AA00F3C588 /* WordGameApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordGameApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		FF9E4AEE257EC11800252551 /* WordGame */ = {
 			isa = PBXGroup;
 			children = (
+				FFFA8200258793AA00F3C588 /* WordGameApp.swift */,
 				FF9E4B2C257ECC4E00252551 /* MyPlayground.playground */,
 				FF9E4AF8257EC11900252551 /* Info.plist */,
 				FF9E4B362580193900252551 /* BoardView.swift */,
@@ -307,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFFA81A92582C31F00F3C588 /* WordState.swift in Sources */,
+				FFFA8201258793AA00F3C588 /* WordGameApp.swift in Sources */,
 				FF9E4AF2257EC11800252551 /* ContentView.swift in Sources */,
 				FF9E4B59258021E800252551 /* AppState.swift in Sources */,
 				FF9E4B372580193900252551 /* BoardView.swift in Sources */,
