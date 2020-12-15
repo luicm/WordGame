@@ -36,7 +36,6 @@ struct BoardView: View {
                         .padding()
                     
                     Text("\((viewStore.learningLanguage == .spanish ? viewStore.wordState.translation?.english : viewStore.wordState.translation?.spanish) ?? "--")").padding()
-                        .scaleEffect(2)
                     
                     Spacer()
                     
